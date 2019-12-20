@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-20T13:24:51</date>
+  <millis>1576823091121</millis>
+  <sequence>0</sequence>
+  <logger>lab4.lab5</logger>
+  <level>INFO</level>
+  <class>lab4.lab5</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>This is Info Messsage </message>
+</record>
+<record>
+  <date>2019-12-20T13:24:51</date>
+  <millis>1576823091246</millis>
+  <sequence>1</sequence>
+  <logger>lab4.lab5</logger>
+  <level>WARNING</level>
+  <class>lab4.lab5</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Warning Message</message>
+</record>
+</log>
