@@ -36,6 +36,14 @@ public class potoki
 		Thread mypot = new Thread(mThing);
 		mypot.start();
 				
+		
+		
+		Runnable runnable = () ->{ int doli = potoki2 .coldal(potoki.n, potoki.S);
+		
+		System.out.println("Количество долин = "+doli+" 2 поток");};
+		Thread t = new Thread (runnable); 
+		t.start();
+		
 		dol = potoki2 .coldal(n, S);
 		
 			System.out.println("Количество долин = "+dol);
